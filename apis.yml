@@ -1,8 +1,25 @@
 aid: makani
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/makani.png
 name: Makani *
-description: 'Makani * is a company surfaced as a portfolio company of gv and added to the API Evangelist
-  network as a stub for enrichment. Sector: frontier-tech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Makani was an Alphabet (Google X) moonshot developing airborne wind energy
+  — "energy kites" that flew in crosswind loops to generate electricity and sent power
+  to the grid down a tether. Backed within Alphabet and partnered with Shell, Makani
+  wound down in 2020 after roughly 13 years of development. On closure the team open-sourced
+  its full flight-simulation, autopilot controller, visualization, and avionics software
+  stack under Apache-2.0 and published the Energy Kite Collection of technical reports,
+  designs, and flight logs. Makani has no commercial or developer API surface; this
+  API Evangelist profile tracks the company for network completeness.'
 url: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Frontier Tech
+- Renewable Energy
+- Wind Energy
+- Airborne Wind
+- Open Source
+- Alphabet
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: VulnerabilityDisclosure
+  url: security/makani-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/makani-domain-security.yml
 - type: Website
-  url: http://google.com/makani
+  url: https://x.company/projects/makani/
+- type: Documentation
+  url: https://x.company/collection/makani/
+- type: GitHubOrganization
+  url: https://github.com/google/makani
+- type: SourceCode
+  url: https://github.com/google/makani
+- type: Security
+  url: https://g.co/vrp
+- type: WellKnown
+  url: well-known/makani-well-known.yml
+- type: SecurityTxt
+  url: well-known/makani-security.txt
+- type: LLMsTxt
+  url: llms/makani-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
