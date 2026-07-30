@@ -1,0 +1,17 @@
+# Makani
+
+> Makani was an Alphabet (Google X) moonshot developing airborne wind energy — "energy kites" that flew in crosswind loops to generate electricity and sent power to the grid down a tether. Backed within Alphabet and partnered with Shell, Makani wound down in 2020 after roughly 13 years of development. On closure the team open-sourced its full flight-simulation, autopilot controller, visualization, and avionics software stack under Apache-2.0 and published the Energy Kite Collection of technical reports, designs, and flight logs. Makani has no commercial or developer API surface; this API Evangelist profile tracks the company for network completeness.
+
+## About
+- [Makani — A Google X Moonshot](https://x.company/projects/makani/): Project overview at X, the moonshot factory.
+- [The Makani Collection](https://x.company/collection/makani/): The Energy Kite Collection — technical reports, designs, and flight logs.
+
+## Source Code
+- [google/makani (GitHub)](https://github.com/google/makani): Full open-sourced flight simulator, controller (autopilot), visualizer, command center tools, and avionics firmware, Apache-2.0.
+
+## Security
+- [security.txt](https://x.company/.well-known/security.txt): Google Vulnerability Reward Program contact and policy.
+- [Google VRP](https://g.co/vrp): Vulnerability disclosure / bug bounty policy.
+
+## Notes
+- No developer API, OpenAPI, SDK, or client library is published — the project ships as a build-from-source research codebase.
