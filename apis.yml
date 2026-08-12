@@ -45,6 +45,13 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: CodeOfConduct
+  url: https://github.com/google/.github/blob/master/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/google/makani/blob/master/CONTRIBUTING.md
+- type: License
+  name: Apache-2.0
+  url: https://github.com/google/makani/blob/master/LICENSE
 - type: VulnerabilityDisclosure
   url: security/makani-vulnerability-disclosure.yml
 - type: DomainSecurity
