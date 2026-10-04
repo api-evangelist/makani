@@ -32,6 +32,7 @@ description: 'Makani was an Alphabet (Google X) moonshot developing airborne win
   stack under Apache-2.0 and published the Energy Kite Collection of technical reports,
   designs, and flight logs. Makani has no commercial or developer API surface; this
   API Evangelist profile tracks the company for network completeness.'
+x-status: defunct
 url: https://raw.githubusercontent.com/api-evangelist/makani/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -48,8 +49,9 @@ tags:
 - Renewable Energy
 - Wind Energy
 - Airborne Wind
-- Open-Source
+- Open Source
 - Alphabet
+- Defunct
 tags_raw:
 - Company
 - Frontier Tech
@@ -58,6 +60,8 @@ tags_raw:
 - Airborne Wind
 - Open Source
 - Alphabet
+- Open-Source
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
